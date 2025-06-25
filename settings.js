@@ -1,14 +1,14 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : Jinwoo
-// @author : Malvin
-// @youtube : https://www.youtube.com/@malvintech2
-// @instagram : techlord01
-// @telegram : t.me/malvinking2
-// @github : xdking2
-// @whatsapp : +263714757857
+// @project_name : Evil-bot
+// @author : Evil-Hacker
+// @youtube : false
+// @instagram : false
+// @telegram : false
+// @github : false
+// @whatsapp : +923183636517
 
-//----------------------[ Jinwoo ]----------------------//
+//----------------------[ TheEvilHacker ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -17,16 +17,16 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~E3MACQqZ#EWK_c5DPcJZCotB501CMOODe1x4iiRbZ07jfKPARzG4' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+global.botname = process.env.BOT_NAME || 'EVIL-BOT' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '+923183636517' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -36,15 +36,15 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
+global.ownername = process.env.OWNER_NAME || 'Evil Hacker' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "jinwoo" 
+global.packname = process.env.STICKER_PACK_NAME || "Evil" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "sung" 
+global.author = process.env.STICKER_AUTHOR_NAME || "1208118" 
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
@@ -80,12 +80,12 @@ global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
 
 //--------------------[ CHATBOT ]-----------------------//
 
-global.chatbot = process.env.CHATBOT || 'false'
+global.chatbot = process.env.CHATBOT || 'true'
 // set true to enable and false to disable auto ai chatbot
 
 //-------------------[ ANTI DELETE ]--------------------//
 
-global.antidelete = process.env.ANTIDELETE || 'private'
+global.antidelete = process.env.ANTIDELETE || 'chat'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -93,7 +93,7 @@ global.antidelete = process.env.ANTIDELETE || 'private'
 
 //---------------------[ ANTI EDIT ]----------------------//
 
-global.antiedit = process.env.ANTI_EDIT || 'private'
+global.antiedit = process.env.ANTI_EDIT || 'chat'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -124,7 +124,7 @@ global.autoread = process.env.AUTO_READ || 'false';
 
 //-------------------[ MENU STYLE ]--------------------//
 
-global.menustyle = process.env.MENU_STYLE || '3' 
+global.menustyle = process.env.MENU_STYLE || '6' 
 // options 1, 2, 3, 4, 5 or 6
 // 1 = Document menu(Android only)
 // 2 = Text only menu(Android & iOS)
@@ -144,7 +144,7 @@ global.plink = process.env.PLINK || "https://www.instagram.com/@techlord01"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Jinwoo bot"
+global.wm = process.env.GL_WM || "> ©Evil bot"
 
 //---------------------[ REPLIES ]-----------------------//
 

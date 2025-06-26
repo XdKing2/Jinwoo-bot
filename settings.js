@@ -1,12 +1,12 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : Jinwoo
-// @author : Malvin
-// @youtube : https://www.youtube.com/@malvintech2
-// @instagram : techlord01
-// @telegram : t.me/malvinking2
+// @project_name : Renan bot
+// @author : renan
+// @youtube : https://youtube.com/@renanvargasl3?si=ehU8BZPTBdeye_aA
+// @instagram : 032renan
+// @telegram : https://t.me/+M7E6ckLO9SMyY2Qx
 // @github : xdking2
-// @whatsapp : +263714757857
+// @whatsapp : +5532998665591
 
 //----------------------[ Jinwoo ]----------------------//
 
@@ -17,16 +17,16 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~ducnnZDb#nNHgA6oOwZzqVD0w_V75ARoYvutcgv2l2GDz25pXzyQ' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+global.botname = process.env.BOT_NAME || 'Renan-ʙᴏᴛ' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '5532998665591' 
 
 //--------------------[ SUDO ]--------------------------//
 
